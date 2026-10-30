@@ -123,6 +123,7 @@ luac_verbose_0 = @echo "  LUAC   $@";
 if BUILD_LUA
 nobase_vlclib_DATA += \
 	lua/extensions/VLSub.luac \
+	lua/intf/autocrop.luac \
 	lua/intf/cli.luac \
 	lua/intf/dummy.luac \
 	lua/intf/dumpmeta.luac \
@@ -246,6 +247,7 @@ EXTRA_DIST += \
 	lua/extensions/README.txt \
 	lua/extensions/VLSub.lua \
 	lua/intf/README.txt \
+	lua/intf/autocrop.lua \
 	lua/intf/cli.lua \
 	lua/intf/dummy.lua \
 	lua/intf/dumpmeta.lua \
